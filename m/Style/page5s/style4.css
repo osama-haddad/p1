@@ -1,0 +1,82 @@
+.movingdiv{
+  position: absolute;
+  text-align: center;
+  font-family: cursive;
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+  top: -260px;
+  left: 450px;
+  height: 180px;
+  width: 200px;
+  background-color: #800080;
+  border: 10px solid red;
+  border-radius: 5px;
+}
+.number{
+  position: absolute;
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  left: 25px;
+  top: 110px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.x-pr{
+  cursor: context-menu;
+  position: absolute;
+  text-align: center;
+  height: 60px;
+  width: 150px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  left: 25px;
+  top: 30px;
+  font-size: 0.6em;
+  font-weight: 500;
+}
+#xpow1{
+  visibility: hidden;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 270px;
+  top: 10px;
+  background: red;
+}
+#xrad1{
+  visibility: hidden;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 270px;
+  top: 120px;
+  background: red;
+}
+.send{
+  position: absolute;
+  font-size: 22px;
+  font-family: inherit;
+  text-align: center;
+  height: 50px;
+  width: 70px;
+  color: #000;
+  left: 65px;
+  top: 190px;
+  background-color: #b8860b;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+#span1{
+  position: absolute;
+  font-size: 0.5em;
+  top: 0px;
+  left: -3px;
+}
+.send:hover{
+  background-color: #ca8;
+}

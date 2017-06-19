@@ -1,0 +1,155 @@
+#c-num{
+  position: absolute;
+  width: 635px;
+  margin-top: 175px;
+  right: 0px;
+  height: 140px;
+  background:	#9500a0;
+  border: 3px solid white;
+  border-right-width: 0px;
+  text-align: center;
+}
+#c-functions{
+  position: absolute;
+  width: 455px;
+  margin-top: 175px;
+  right: 0px;
+  height:140px;
+  background:	#800080;
+  border: 3px solid white;
+  border-right-width: 0px;
+  text-align: center;
+}
+#c-text{
+  position: absolute;
+  width: 770px;
+  margin-top: 330px;
+  right: 0px;
+  height: 100px;
+  background: #A370DB;
+  border: 3px solid white;
+  border-right-width: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#text{
+  cursor: context-menu;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  border-right-width: 0px;
+  left: 25px;
+  top: 15px;
+  width: 744px;
+  font-size: 1.5em;
+  height: 70px;
+  font-family: cursive;
+  padding-left: 10px;
+}
+#text1{
+  position: absolute;
+  visibility: hidden;
+  background-color: white;
+  border: 1px solid black;
+  border-right-width: 0px;
+  left: 620px;
+  top: 70px;
+  width: 734px;
+  font-size: 1em;
+  height: 25px;
+  font-family: cursive;
+  padding-left: 10px;
+}
+#table1{
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 17px;
+}
+#table2{
+  position: absolute;
+  margin-top: 22px;
+  right: 22px;
+}
+.num{
+  cursor: pointer;
+  margin: 1px;
+  text-align: center;
+  border-width: 0px;
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 40px;
+  background: #A79EBB;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.functions{
+  cursor: pointer;
+  margin: 1px;
+  text-align: center;
+  border-width: 0px;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 80px;
+  background: #87CEEB;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+.sf{
+  width: 50px;
+  font-size: 1.7em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sfr{
+  margin-right: 14px;
+}
+.td1{
+  width: 30px;
+}
+#f5{
+  padding-top: 11px;
+  padding-bottom: 5px;
+}
+#f6{
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+#line1{
+  position: absolute;
+  width: 1px;
+  height: 140px;
+  right: 287px;
+  background: #9370DB;
+}
+#line2{
+  border-bottom: white 1px solid;
+}
+#line3{
+  top: 70px;
+  border-top: white 1px solid;
+}
+.lines{
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+  height: 70px;
+  left: 0px;
+  font-size: 1.5em;
+  background: #A370DB;
+  border-width: 0px;
+  border-right: white 3px solid;
+}
+table, th, td {
+  border-collapse: separate;
+}
+.functions:hover{
+  background: #80BEEB;
+}
+.num:hover{
+  background: #9F9EBB;
+}
+.lines:hover{
+  background: #A363DB;
+}

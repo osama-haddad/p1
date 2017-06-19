@@ -1,0 +1,123 @@
+.c-x{
+  position: absolute;
+  width: 50px;
+  margin-top: 272.8px;
+  right: 638px;
+  height: 48px;
+  font-size: 1.5em;
+  font-family: inherit;
+  font-weight: 400;
+  background: #A370DB;
+  border: 3px solid white;
+  border-right-width: 0px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 3px;
+  cursor: pointer;
+}
+#c-0{
+  height: 36px;
+  margin-top: 231px;
+  right: 638px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 1.4em;
+  font-weight: 600;
+  background: #B370DB;
+  font-family: sans-serif;
+}
+#c-00{
+  height: 36px;
+  width: 30px;
+  margin-top: 231px;
+  right: 688px;
+  background: #B370DB;
+  border-top-left-radius: 10px;
+}
+#bs{
+  position: absolute;
+  width: 110px;
+  margin-top: 175px;
+  right: 638px;
+  height: 50px;
+  font-size: 1.5em;
+  font-family: inherit;
+  font-weight: 400;
+  background: #A370DB;
+  border: 3px solid white;
+  border-right-width: 0px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+}
+#clear{
+  position: absolute;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 12px;
+  border: 5px solid #CF54FD;
+  text-align: center;
+  font-family: Courier;
+  font-weight: 500;
+  font-size: 26px;
+  color: black;
+  background-color:	#8845A9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  right: 311px;
+  top: 499px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right-width: 0px;
+  -webkit-transform: rotate(-90deg);
+}
+#img1{
+  position: absolute;
+  cursor: pointer;
+  top: 224px;
+  right: 656px;
+  z-index: 105;
+  height: 24px;
+}
+#p-00{
+  position: absolute;
+  cursor: pointer;
+  font-size: 40px;
+  font-size: 1.4em;
+  font-weight: 600;
+  top: 266px;
+  right: 698px;
+  z-index: 100;
+}
+#n1{
+  position: absolute;
+  cursor: pointer;
+  top: 276px;
+  right: 249px;
+  font-size: 0.8em;
+}
+#n2{
+  position: absolute;
+  cursor: pointer;
+  top: 228px;
+  right: 227px;
+  font-size: 0.8em;
+}
+#bla{
+  position: absolute;
+  visibility: hidden;
+}
+#bla-rad{
+  visibility: hidden;
+}
+.c-x:hover{
+  background: #9D70DB;
+}
+#c-0:hover{
+  background: #AD70DB;
+}
+#c-00:hover{
+  background: #AD70DB;
+}
+#bs:hover{
+  background: #9D70DB;
+}
