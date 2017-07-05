@@ -3,79 +3,81 @@
   text-align: center;
   font-family: cursive;
   color: #000;
-  font-size: 40px;
+  font-size: 2.928vw;
   font-weight: bold;
-  padding-top: 30px;
-  top: -260px;
-  left: 450px;
-  height: 180px;
-  width: 200px;
+  padding-top: 2.196vw;
+  top: -19.032vw;
+  left: 32.94vw;
+  height: 13.176vw;
+  width: 14.64vw;
   background-color: #800080;
-  border: 10px solid red;
-  border-radius: 5px;
+  border: 0.732vw solid red;
+  border-radius: 0.366vw;
 }
 .number{
   position: absolute;
   text-align: center;
-  height: 50px;
-  width: 150px;
-  border: 1px solid grey;
-  border-radius: 5px;
-  left: 25px;
-  top: 110px;
-  font-size: 1.2em;
+  height: 3.66vw;
+  width: 10.98vw;
+  border: 0.0732vw solid grey;
+  border-radius: 0.366vw;
+  left: 1.83vw;
+  top: 8.052vw;
+  font-size: 3.4064vw;
   font-weight: 500;
 }
 .x-pr{
   cursor: context-menu;
   position: absolute;
   text-align: center;
-  height: 60px;
-  width: 150px;
-  border: 1px solid grey;
-  border-radius: 5px;
-  left: 25px;
-  top: 30px;
-  font-size: 0.6em;
+  height: 4.392vw;
+  width: 10.98vw;
+  border: 0.0732vw solid grey;
+  border-radius: 0.366vw;
+  left: 1.83vw;
+  top: 2.196vw;
+  padding-top: 0.8vw;
+  font-size: 1.6vw;
   font-weight: 500;
+  line-height: 90%;
 }
 #xpow1{
   visibility: hidden;
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 270px;
-  top: 10px;
+  width: 7.32vw;
+  height: 7.32vw;
+  left: 19.764vw;
+  top: 0.732vw;
   background: red;
 }
 #xrad1{
   visibility: hidden;
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 270px;
-  top: 120px;
+  width: 7.32vw;
+  height: 7.32vw;
+  left: 19.764vw;
+  top: 8.784vw;
   background: red;
 }
 .send{
   position: absolute;
-  font-size: 22px;
+  cursor: pointer;
+  font-size: 1.6104vw;
   font-family: inherit;
-  text-align: center;
-  height: 50px;
-  width: 70px;
+  height: 3.66vw;
+  width: 5.124vw;
   color: #000;
-  left: 65px;
-  top: 190px;
+  left: 4.758vw;
+  top: 13.908vw;
   background-color: #b8860b;
-  border: 2px solid black;
-  border-radius: 12px;
+  border: 0.1464vw solid black;
+  border-radius: 0.8784vw;
 }
 #span1{
   position: absolute;
-  font-size: 0.5em;
+  font-size: 0.586vw;
   top: 0px;
-  left: -3px;
+  left: -0.2196vw;
 }
 .send:hover{
   background-color: #ca8;
