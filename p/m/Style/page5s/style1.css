@@ -70,26 +70,58 @@ body{
   position: absolute;
   top: 0px;
   left:0px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7aa19fbfa0719f6ec334c55f24d1102caec57a40
   height: 29.3532vw;
   width: 29.3532vw;
   border-right: 0.2928vw solid black;
   border-bottom: 0.2928vw solid black;
   border-bottom-right-radius: 0.5856vw;
+<<<<<<< HEAD
+=======
+=======
+  height: 29.35vw;
+  width: 29.35vw;
+  border-right: 0.3vw solid black;
+  border-bottom: 0.3vw solid black;
+  border-bottom-right-radius: 0.6vw;
+>>>>>>> 01fe5bd75d7d7ef04c3a2ac3fe377ea6b06bf245
+>>>>>>> 7aa19fbfa0719f6ec334c55f24d1102caec57a40
   background:	#1E90DD;
 }
 #the_div1{
   position: absolute;
   top: 0px;
   left:0px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7aa19fbfa0719f6ec334c55f24d1102caec57a40
   height: 29.3532vw;
   width: 29.3532vw;
   border-right: 0.2928vw solid black;
   border-bottom: 0.2928vw solid black;
   border-bottom-right-radius: 0.5856vw;
+<<<<<<< HEAD
+=======
+=======
+  height: 29.35vw;
+  width: 29.35vw;
+  border-right: 0.3vw solid black;
+  border-bottom: 0.3vw solid black;
+  border-bottom-right-radius: 0.6vw;
+>>>>>>> 01fe5bd75d7d7ef04c3a2ac3fe377ea6b06bf245
+>>>>>>> 7aa19fbfa0719f6ec334c55f24d1102caec57a40
   z-index: 99;
 }
 #x-x{
   position: absolute;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7aa19fbfa0719f6ec334c55f24d1102caec57a40
   width: 29.3532vw;
   height: 1px;
   top: 14.64vw;
@@ -153,4 +185,22 @@ body{
 }
 #yn-15{
   left: 3.66vw;
+<<<<<<< HEAD
+=======
+=======
+  width: 29.35vw;
+  height: 1px;
+  top: 14.67vw;
+  background: black;
+  z-index: 97;
+}
+#y-y{
+  position: absolute;
+  height: 29.35vw;
+  width: 1px;
+  left: 14.67vw;
+  background: black;
+  z-index: 96;
+>>>>>>> 01fe5bd75d7d7ef04c3a2ac3fe377ea6b06bf245
+>>>>>>> 7aa19fbfa0719f6ec334c55f24d1102caec57a40
 }

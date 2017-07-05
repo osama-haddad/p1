@@ -1,0 +1,46 @@
+#btn1{
+  font-size: 25px;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  color: #000;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -40px;
+  background-color: #0c0;
+}
+#btn2{
+  position: absolute;
+  font-size: 22px;
+  font-family: inherit;
+  text-align: center;
+  height: 50px;
+  width: 60px;
+  color: #000;
+  margin-left: -30px;
+  margin-top: 20px;
+  background-color: #b8860b;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+#btn2:hover{
+  background-color: #ca8;
+}
+#btn1:hover{
+  background-color: #0a0;
+}
+#moving_div{
+  position: absolute;
+  text-align: center;
+  font-family: cursive;
+  color: #000;
+  font-size: 25px;
+  padding-top: 30px;
+  margin-top: -260px;
+  margin-left: 100px;
+  height: 180px;
+  width: 200px;
+  background-color: #800080;
+  border: 10px solid red;
+  border-radius: 5px;
+}
