@@ -181,7 +181,10 @@
 #ff4{
   padding-top: 0.5vw
 }
-.functions:hover{
+.functions1:hover{
+  background: #80BEEB;
+}
+.functions2:hover{
   background: #80BEEB;
 }
 .num:hover{
