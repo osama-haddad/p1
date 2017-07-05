@@ -1,0 +1,135 @@
+<html>
+<head>
+  <title>page5</title>
+  <meta name="authore" content="Osama Haddad">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../m/Style/page5s/style1.css">
+  <link rel="stylesheet" type="text/css" href="../m/Style/page5s/style2.css">
+  <link rel="stylesheet" type="text/css" href="../m/Style/page5s/style3.css">
+  <link rel="stylesheet" type="text/css" href="../m/Style/page5s/style4.css">
+  <link rel="icon" href="../m/imgs/imgs/2.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div id="the_div"></div>
+  <div id="the_div1"></div>
+  <div id="x-x"></div>
+  <div id="y-y"></div>
+  <div id="x(+1)"></div>
+  <div id="x(-1)"></div>
+  <div id="y(+1)"></div>
+  <div id="y(-1)"></div>
+
+  <div id="c">
+    <div id="c-num">
+      <div class="container" style="width: 98%;">
+        <div class="row">
+          <input type="button" onclick="b(7)" id="num7" class="num col-xs-4" value="7"/>
+          <input type="button" onclick="b(8)" id="num8" class="num col-xs-4" value="8"/>
+          <input type="button" onclick="b(9)" id="num9" class="num col-xs-4" value="9"/>
+        </div>
+        <div class="row">
+          <input type="button" onclick="b(4)" id="num4" class="num col-xs-4" value="4"/>
+          <input type="button" onclick="b(5)" id="num5" class="num col-xs-4" value="5"/>
+          <input type="button" onclick="b(6)" id="num6" class="num col-xs-4" value="6"/>
+        </div>
+        <div class ="row">
+          <input type="button" onclick="b(1)" id="num1" class="num col-xs-4" value="1"/>
+          <input type="button" onclick="b(2)" id="num2" class="num col-xs-4" value="2"/>
+          <input type="button" onclick="b(3)" id="num3" class="num col-xs-4" value="3"/>
+        </div>
+      </div>
+    </div>
+    <div id="c-brack">
+      <div class="container">
+        <div class="row">
+          <input type="button" id="line1" class="lines col-xs-6" value="(" onclick="bb('(','(')"/>
+        </div>
+        <div class="row">
+          <input type="button" id="line2" class="lines col-xs-6" value=")" onclick="r(')',')')"/>
+        </div>
+      </div>
+    </div>
+    <div id="c-functions1">
+      <div class="container">
+        <div class="row">
+          <input type="button" id="f1" class="functions1 col-xs-6" value="+" onclick="r('+','+')" />
+          <input type="button" id="f2" class="functions1 col-xs-6" value="×" onclick="r('×','*')" />
+        </div>
+        <div class="row">
+          <input type="button" id="f3" class="functions1 col-xs-6" value="-" onclick="r('-','-')" />
+          <input type="button" id="f4" class="functions1 col-xs-6" value="/" onclick="r('/','/')" />
+        </div>
+      </div>
+    </div>
+    <div id="c-functions2">
+      <div class="container">
+        <div class="row">
+          <input type="button" id="ff1" class="functions2 col-xs-4" value="X " onclick="set_timer1()" />
+          <input type="button" id="ff2" class="functions2 col-xs-4" value="sin(x)" onclick="bb('sin(x)','Math.sin((Math.PI*100*e)/180)')" />
+          <input type="button" id="ff3" class="functions2 col-xs-4" value="log(x)" onclick="bb('log(x)','Math.log10(e)')" />
+        </div>
+        <div class="row">
+          <input type="button" id="ff4" class="functions2 col-xs-4" value="&radic;X " onclick="set_ttimer1()" />
+          <input type="button" id="ff5" class="functions2 col-xs-4" value="cos(x)" onclick="bb('cos(x)','Math.cos((Math.PI*100*e)/180)')" />
+          <input type="button" id="ff6" class="functions2 col-xs-4" value="ln(x)" onclick="bb('ln(x)','Math.log(e)')" />
+        </div>
+      </div>
+      <p id="n1" onclick="set_ttimer1()">n</p>                                          <!-- n-rad -->
+      <p id="n2" onclick="set_timer1()">n</p>                                           <!-- n-pow -->
+    </div>
+  </div>
+
+  <input type="button" onclick="b(0)" class="c-x" id="c-0" value="0"/>                  <!-- 0-cpntainer -->
+  <input type="button" onclick="bb('X','e')" class="c-x" value="X"/>                    <!-- X-container -->
+  <input type="button" onclick="r('.','.')" class="c-x" id="c-00"/>                     <!-- .-container -->
+  <div onclick="bss()" class="c-x" id="bs"/>                                            <!--------->
+    <img src="../m/imgs/imgs5/arrow.png" onclick="bss()" id="img1"/>                    <!-- bs --->
+  </div>                                                                                <!--------->
+
+  <div id="c-text-hidden">                                                              <!-- hidden c-text --->
+    <textarea rows="8" cols="50" id="text-hidden" onclick="v1()"></textarea>            <!-------------------->
+    <input type="button" onclick="clr()" id="clear" value="clear"/>                     <!-------------------->
+  </div>                                                                                <!-------------------->
+
+  <div id="c-text">                                                                     <!-- visible c-text -->
+    <textarea rows="8" cols="50" id="text" onclick="v1()"></textarea>                   <!-------------------->
+  </div>                                                                                <!-------------------->
+  <textarea rows="8" cols="50" id="text1"></textarea>
+
+  <input type="button" id="go" onclick="ff()" value="Go"/>
+  <a href="#"><div id="reload">Reload</div></a>
+  <a href="#"><div id="back">Back</div></a>
+
+  <textarea id="back1"></textarea>
+
+  <div id="movingdiv1" class="movingdiv">
+  <textarea id="xpow" class="x-pr" placeholder="enter the base" onclick="v2()"></textarea>
+  <input type="number" id="pow" class="number" min="2" max="9" value="2"/>
+  <input type="button" value="Send" class="send text-center" onclick="set_timer2(),write1()"/>
+  </div>
+
+  <div id="movingdiv2" class="movingdiv">
+  <textarea id="xrad" class="x-pr" placeholder="enter the base" onclick="v2()"></textarea>
+  <input type="number" id="rad" class="number" min="2" max="9" value="2">
+  <input type="button" value="Send" class="send text-center" onclick="set_ttimer2(),write2()"/>
+  </div>
+
+  <!-- danger -->
+
+
+  <input type="button" id="bla-rad" value="&radic;"/>                                   <!-- rad-sym -->
+  <div onclick="r1('.','.')" id="p-00">.</div>                                          <!-- . -->
+  <textarea id="xpow1"></textarea>                                                      <!-- xpow1 -->
+  <textarea id="xrad1"></textarea>                                                      <!-- xrad1 -->
+  <div id="bla">0</div>                                                                 <!-- bla|012 -->
+
+  <script src="../m/JavaScript/jquery-2.1.4.min.js"></script>
+  <script src="../m/JavaScript/bootstrap.min.js"></script>
+  <script src="../m/JavaScript/page5js/js1.js"></script>
+
+</body>
+</html>
