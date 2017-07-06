@@ -1,26 +1,26 @@
 
-var the_timer, the_timer2, y_position=-260, y_position2=-25, theDiv;
+var the_timer, the_timer2, y_position=-19.032, y_position2=-1.9, theDiv;
 
 function ff() {
 
-  for (var e=-2 ; e<=2.03 ; e=e+0.01)
+  for (var e=-2 ; e<=2.01 ; e=e+0.01)
   {
     var m=eval(document.getElementById("text1").value);
     document.getElementById("back1").innerHTML=m;
 
-    if ( (-m*100)<=203 )
+    if ( (-m*100)<=201 )
     {
       var newItem = document.createElement("div");
       var destParent = document.getElementById("the_div");
       destParent.insertBefore(newItem, destParent.lastChild);
-      newItem.style.width=1+"px";
-      newItem.style.height=6+"px";
+      newItem.style.width=0.0732+"vw";
+      newItem.style.height=0.4392+"vw";
       newItem.style.position="absolute";
-      newItem.style.top=(-m*100)+195+"px";
-      newItem.style.left=(e*100)+200+"px"
+      newItem.style.top=(((-m*100)+195)*0.0732)+"vw";
+      newItem.style.left=(((e*100)+200)*0.0732)+"vw"
       newItem.style.background="red";
       newItem.class="dd";
-      newItem.style.zIndex=98;
+      newItem.style.zIndex= "100";
     }
   }
 };
@@ -205,13 +205,13 @@ function set_timer1() {
     if (document.getElementById("bla").innerHTML=="0")
     {
       theDiv = document.getElementById("movingdiv1");
-      y_position = y_position + 3;
-      theDiv.style.top = y_position;
+      y_position = y_position + 0.22;
+      theDiv.style.top = y_position+"vw";
       the_timer = setTimeout(set_timer1, 8);
-      if (y_position>=-25)
+      if (y_position>=-1.9)
       {
         clearTimeout(the_timer);
-        y_position = -260;
+        y_position = -19.032;
         document.getElementById("bla").innerHTML="1";
       }
     }
@@ -220,13 +220,13 @@ function set_timer1() {
 
 function set_timer2() {
     theDiv = document.getElementById("movingdiv1");
-    y_position2 = y_position2 - 1;
-    theDiv.style.top = y_position2;
+    y_position2 = y_position2 - 0.07;
+    theDiv.style.top = y_position2+"vw";
     the_timer2 = setTimeout(set_timer2, 1);
-    if (y_position2<-260)
+    if (y_position2<-19.032)
     {
       clearTimeout(the_timer2);
-      y_position2 = -25;
+      y_position2 = -1.9;
       document.getElementById("bla").innerHTML="0";
     }
 };
@@ -255,13 +255,13 @@ function set_ttimer1() {
     if (document.getElementById("bla").innerHTML=="0")
     {
       theDiv = document.getElementById("movingdiv2");
-      y_position = y_position + 3;
-      theDiv.style.top = y_position;
+      y_position = y_position + 0.22;
+      theDiv.style.top = y_position+"vw";
       the_timer = setTimeout(set_ttimer1, 8);
-      if (y_position>=-25)
+      if (y_position>=-1.9)
       {
         clearTimeout(the_timer);
-        y_position = -260;
+        y_position = -19.032;
         document.getElementById("bla").innerHTML="2";
       }
     }
@@ -270,13 +270,13 @@ function set_ttimer1() {
 
 function set_ttimer2() {
     theDiv = document.getElementById("movingdiv2");
-    y_position2 = y_position2 - 1;
-    theDiv.style.top = y_position2;
+    y_position2 = y_position2 - 0.07;
+    theDiv.style.top = y_position2+"vw";
     the_timer2 = setTimeout(set_ttimer2, 1);
-    if (y_position2<-260)
+    if (y_position2<-19.032)
     {
       clearTimeout(the_timer2);
-      y_position2 = -25;
+      y_position2 = -1.9;
       document.getElementById("bla").innerHTML="0";
     }
 };
