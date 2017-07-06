@@ -1,0 +1,126 @@
+.c-x{
+  position: absolute;
+  width: 3.66vw;
+  top: 20.56896vw;
+  right: 46.7016vw;
+  height: 3.5136vw;
+  font-size: 1.758vw;
+  font-family: inherit;
+  font-weight: 400;
+  background: #A370DB;
+  border: 0.2196vw solid white;
+  border-right-width: 0px;
+  border-bottom-left-radius: 0.732vw;
+  border-top-left-radius: 0.2196vw;
+  cursor: pointer;
+}
+#c-0{
+  height: 2.6352vw;
+  top: 17.5092vw;
+  right: 46.7016vw;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 1.6408vw;
+  font-weight: 600;
+  background: #B370DB;
+  font-family: sans-serif;
+}
+#c-00{
+  height: 2.6352vw;
+  width: 2.196vw;
+  top: 17.5092vw;
+  right: 50.3616vw;
+  background: #B370DB;
+  border-top-left-radius: 0.732vw;
+}
+#bs{
+  position: absolute;
+  width: 8.052vw;
+  top: 13.41vw;
+  right: 46.7016vw;
+  height: 3.16vw;
+  font-size: 1.758vw;
+  font-family: inherit;
+  font-weight: 400;
+  background: #A370DB;
+  border: 0.2196vw solid white;
+  border-right-width: 0px;
+  border-bottom-left-radius: 0.2196vw;
+  border-top-left-radius: 0.732vw;
+  cursor: pointer;
+}
+#clear{
+  position: absolute;
+  cursor: pointer;
+  width: 8.784vw;
+  border-radius: 0.8784vw;
+  border: 0.366vw solid #CF54FD;
+  text-align: center;
+  font-family: Courier;
+  font-weight: 500;
+  font-size: 1.9032vw;
+  color: black;
+  background-color:	#8845A9;
+  padding-top: 0.732vw;
+  padding-bottom: 0.732vw;
+  right: 22.7652vw;
+  top: 9.5vw;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right-width: 0px;
+  -webkit-transform: rotate(-90deg);
+  z-index: 80;
+}
+#img1{
+  position: absolute;
+  cursor: pointer;
+  top: 0.75vw;
+  left: 1.3vw;
+  z-index: 105;
+  height: 1.7568vw;
+}
+#p-00{
+  position: absolute;
+  cursor: pointer;
+  font-size: 2.928vw;
+  font-size: 1.6408vw;
+  font-weight: 600;
+  top: 17.4712vw;
+  right: 51.0936vw;
+  z-index: 100;
+}
+#n1{
+  position: absolute;
+  cursor: pointer;
+  top: 4.4vw;
+  right: 17.6vw;
+  font-size: 0.9376vw;
+  font-family: cursive;
+}
+#n2{
+  position: absolute;
+  cursor: pointer;
+  top: 1vw;
+  right: 15.9vw;
+  font-size: 0.9376vw;
+  font-family: cursive;
+}
+#bla{
+  position: absolute;
+  visibility: hidden;
+}
+#bla-rad{
+  visibility: hidden;
+}
+.c-x:hover{
+  background: #9D70DB;
+}
+#c-0:hover{
+  background: #AD70DB;
+}
+#c-00:hover{
+  background: #AD70DB;
+}
+#bs:hover{
+  background: #9D70DB;
+}
