@@ -20,7 +20,7 @@ function ff() {
       newItem.style.left=(((e*100)+200)*0.0732)+"vw"
       newItem.style.background="red";
       newItem.class="dd";
-      newItem.style.zIndex= "98";
+      newItem.style.zIndex= "100";
     }
   }
 };

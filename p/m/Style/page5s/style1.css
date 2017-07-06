@@ -94,7 +94,7 @@ body{
   height: 1px;
   top: 14.64vw;
   background: black;
-  z-index: 96;
+  z-index: 98;
 }
 #y-y{
   position: absolute;
@@ -102,17 +102,17 @@ body{
   width: 1px;
   left: 14.64vw;
   background: black;
-  z-index: 97;
+  z-index: 98;
 }
 .xx{
   position: absolute;
   width: 29.35vw;
   height: 1px;
   background: #50A4BE;
-  z-index: 95;
+  z-index: 91;
 }
 #xp-1{
-  top: 7.32vw; /*14.64*/
+  top: 7.32vw;
 }
 #xp-05{
   top: 10.98vw;
@@ -134,16 +134,19 @@ body{
   height: 29.35vw;
   width: 1px;
   background: #50A4BE;
-  z-index: 95;
+  z-index: 91;
 }
 #yp-1{
   right: 7.32vw;
+  z-index: 91;
 }
 #yp-05{
   right: 10.98vw;
+  z-index: 91;
 }
 #yp-15{
   right: 3.66vw;
+  z-index: 91;
 }
 #yn-1{
   left: 7.32vw;
