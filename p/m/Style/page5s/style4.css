@@ -7,12 +7,13 @@
   font-weight: bold;
   padding-top: 2.196vw;
   top: -19.032vw;
-  left: 32.94vw;
+  left: 31.94vw;
   height: 13.176vw;
   width: 14.64vw;
   background-color: #800080;
   border: 0.732vw solid red;
   border-radius: 0.366vw;
+  z-index: 106;
 }
 .number{
   position: absolute;
